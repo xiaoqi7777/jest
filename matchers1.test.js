@@ -63,26 +63,26 @@
 // })
 
 // 字符串 匹配里面放正则
-test('toMatch',()=>{
-  const str = 'http://www.dell-le.com';
-  expect(str).toMatch(/w1ww/)
-})
+// test('toMatch',()=>{
+//   const str = 'http://www.dell-le.com';
+//   expect(str).toMatch(/www/)
+// })
 
-// Array Set
-test('toContain',()=>{
-  const arr = ['dell','lee','imooc'];
-  const data = new Set(arr)
-  expect(arr).toContain('dell')
-  expect(data).toContain('dell')
-})
+// // Array Set
+// test('toContain',()=>{
+//   const arr = ['dell','lee','imooc'];
+//   const data = new Set(arr)
+//   expect(arr).toContain('dell')
+//   expect(data).toContain('dell')
+// })
 
-// 异常
-const fn = ()=>{
-  throw new Error('this is a new error')
-}
+// // 异常
+// const fn = ()=>{
+//   throw new Error('this is a new error')
+// }
 
 
-test('toThrow',()=>{
-  //toThrow 里面可以写字符串也可以写正则 或者不写 与报错信息匹配
-  expect(fn).toThrow('this is a new error')
-})
+// test('toThrow',()=>{
+//   //toThrow 里面可以写字符串也可以写正则 或者不写 与报错信息匹配
+//   expect(fn).toThrow('this is a new error')
+// })

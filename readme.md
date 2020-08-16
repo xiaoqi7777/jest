@@ -20,5 +20,18 @@
   ]
 }
 ```
+-  package.json => jest --watch 配置后 没有o模式 自带，
+-  package.json => jest --watchAll 配置后 有o模式 有a模式，
 - jest 命令行
+- w切换模式
 - f模式 过滤没有通过的测试 再次按f即退出这个模式
+- 0模式 只测试修改过的文件 但是需要git commit 配合
+- a模式 跑一遍所有的测试
+- p模式 通过filename 进行过滤
+- t模式 通过test用例的名字 进行过滤
+- q模式 就是退出
+- Enter模式 重新跑
+
+- 技巧
+- vscode jest  不用跑脚本了
+- prettier@1.18.2 快照
